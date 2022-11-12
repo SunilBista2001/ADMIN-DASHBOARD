@@ -1,0 +1,29 @@
+.table {
+  .productWrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .image {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+  }
+
+  .status {
+    padding: 10px;
+    border-radius: 5px;
+
+    &.Approved {
+      color: green;
+      background-color: rgba(1, 63, 1, 0.205);
+    }
+
+    &.Pending {
+      color: goldenrod;
+      background-color: rgba(190, 139, 10, 0.29);
+    }
+  }
+}

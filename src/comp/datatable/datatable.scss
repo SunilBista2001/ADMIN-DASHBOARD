@@ -1,0 +1,56 @@
+.datatable {
+  padding: 20px;
+  height: 500px;
+
+  .title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 22px;
+    color: #888;
+    margin: 10px;
+
+    .link {
+      font-size: 16px;
+      margin-right: 25px;
+      color: green;
+      border: 1px solid rgba(0, 128, 0, 0.37);
+      padding: 5px 10px;
+      border-radius: 4px;
+    }
+  }
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    img {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+    }
+  }
+
+  .actionWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+    .viewBtn {
+      color: darkblue;
+      border: 1px solid rgba(0, 0, 139, 0.466);
+      padding: 5px 10px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .delBtn {
+      color: crimson;
+      border: 1px solid rgba(220, 20, 60, 0.479);
+      padding: 5px 10px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  }
+}

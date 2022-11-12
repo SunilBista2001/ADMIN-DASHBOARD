@@ -1,0 +1,79 @@
+@import "../../global.scss";
+.signup {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 8rem;
+  flex-direction: column;
+  .title {
+    font-size: 28px;
+    font-weight: 500;
+    border-bottom: 2px solid #6439ff;
+    color: #6439ff;
+  }
+  form {
+    margin: 15px;
+    box-shadow: $box-shadow;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    border-radius: 4px;
+    align-items: center;
+    gap: 10px;
+
+    h4 {
+      color: red;
+      font-weight: 500;
+      margin-bottom: 0;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    input {
+      padding: 5px 10px;
+      width: 200px;
+      display: flex;
+      border: none;
+      outline: none;
+      border-bottom: 2px solid #6439ff;
+    }
+    button {
+      color: white;
+      background: rgba(0, 128, 0, 0.808);
+      border: none;
+      width: 200px;
+      padding: 5px;
+      border-radius: 4px;
+      margin: 10px;
+      cursor: pointer;
+      transition: all 0.2s ease-in;
+      margin-top: 0;
+
+      &:hover {
+        background-color: green;
+      }
+    }
+  }
+
+  h3 {
+    box-shadow: $box-shadow;
+    padding: 10px 20px;
+    width: 33.5%;
+    border-radius: 4px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+
+    span {
+      cursor: pointer;
+      color: rgba(0, 128, 0, 0.836);
+
+      &:hover {
+        color: green;
+      }
+    }
+  }
+}

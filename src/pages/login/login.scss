@@ -1,0 +1,87 @@
+@import "../../global.scss";
+.login {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 8rem;
+  flex-direction: column;
+
+  .title {
+    font-size: 28px;
+    font-weight: 500;
+    border-bottom: 2px solid #6439ff;
+    color: #6439ff;
+  }
+  form {
+    margin: 20px;
+    border-radius: 4px;
+    box-shadow: $box-shadow;
+    width: 30%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .formInput {
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+      input {
+        width: 200px;
+        padding: 5px 10px;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid lightgray;
+        border-color: #6439ff;
+        position: relative;
+      }
+    }
+    h3 {
+      color: red;
+      font-size: 14px;
+      font-weight: 500;
+      text-align: center;
+      margin-top: 0;
+      margin-bottom: 10px;
+    }
+    button {
+      display: flex;
+      width: 200px;
+      padding: 5px;
+      color: white;
+      background-color: rgba(0, 128, 0, 0.753);
+      justify-content: center;
+      margin-bottom: 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: all 0.2s ease-in;
+
+      &:hover {
+        background-color: rgba(0, 128, 0, 0.904);
+      }
+    }
+  }
+
+  h2 {
+    width: 28.5%;
+    box-shadow: $box-shadow;
+    padding: 10px;
+    font-weight: 400;
+    border-radius: 4px;
+    font-size: 18px;
+    text-align: center;
+
+    span {
+      color: rgba(0, 128, 0, 0.719);
+      cursor: pointer;
+      margin-left: 5px;
+
+      &:hover {
+        color: green;
+      }
+    }
+  }
+}
